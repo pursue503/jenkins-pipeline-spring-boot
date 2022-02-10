@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'This is a minimal pipeline.'
 
-//                 sh "mvn clean package"
+                sh "mvn clean package"
             }
         }
     }
